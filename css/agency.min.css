@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 34px;
     margin-top: 0;
     color: #ffffff;
-    margin-bottom: 15px
+    margin-bottom: 25px
 }
 
 .page-section h3.section-subheading {
@@ -289,7 +289,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
+    margin: 6px 0;
     text-transform: none
 }
 

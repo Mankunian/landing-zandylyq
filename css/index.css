@@ -29,4 +29,64 @@
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+
+    /*-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(1px);*/
+}
+
+
+.imgsize{
+    width: 150px;
+    margin: 15px 0;
+}
+
+.portfolio-caption:hover{
+    /*outline: 4px solid red;*/
+    /*-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 5px 5px 3px black;*/
+
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.portfolio-caption h5{
+    color: #fff
+}
+
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.icon {
+    padding: 15px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+.follow{
+    font-weight: 600;
+    text-transform: uppercase;
 }
