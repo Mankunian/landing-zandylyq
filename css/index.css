@@ -1,0 +1,32 @@
+.form{
+    background: rgba(33, 30, 30, 0.5);
+    min-height: 465px;
+    border-radius: 1px;
+    padding: 15px;
+    text-align: left;
+
+}
+
+.form h3{
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #96A844;
+    border-color: #96A844;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.background_service{
+    background-image: url("../img/service_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
