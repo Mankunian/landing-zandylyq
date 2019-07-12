@@ -24,7 +24,8 @@
 }
 
 .background_service{
-    background-image: url("../img/service_background.jpg");
+    /*background-image: url("../img/service_background.jpg");*/
+    background-image: url("../img/bg2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -39,7 +40,7 @@
 
 
 .imgsize{
-    width: 150px;
+    /*width: 150px;*/
     margin: 15px 0;
 }
 
@@ -70,7 +71,7 @@
 
 .icon {
     padding: 15px;
-    background: dodgerblue;
+    background: #96A844;
     color: white;
     min-width: 50px;
     text-align: center;
@@ -89,4 +90,8 @@
 .follow{
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.fa-ul{
+    margin-top: 45px;
 }
