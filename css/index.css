@@ -95,3 +95,33 @@
 .fa-ul{
     margin-top: 45px;
 }
+
+header.masthead {
+    text-align: center;
+    color: #fff;
+    /*background-image: url(../img/background.jpg);*/
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: fit-content;
+}
+
+.page-section h2.section-heading {
+    font-size: 34px;
+    margin-top: 0;
+    color: #ffffff;
+    margin-bottom: 25px
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #716767;
+    text-align: center;
+    background-color: rgba(68, 69, 70, 0.3);
+}

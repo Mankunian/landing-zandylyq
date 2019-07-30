@@ -33,12 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 70px 0
 }
 
-.page-section h2.section-heading {
-    font-size: 34px;
-    margin-top: 0;
-    color: #ffffff;
-    margin-bottom: 25px
-}
+
 
 .page-section h3.section-subheading {
     font-size: 16px;
@@ -172,17 +167,7 @@ img::-moz-selection {
     }
 }
 
-/*header.masthead {
-    text-align: center;
-    color: #fff;
-    background-image: url(../img/bg1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-  */  min-height: fit-content;
-}
+
 
 header.masthead .intro-text {
     padding-top: 150px;
@@ -279,15 +264,7 @@ header.masthead .intro-text .intro-heading {
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-    max-width: 350px;
-    height: 300px;
-    margin: 0 auto;
-    padding: 25px;
-    border: 1px solid #716767;
-    text-align: center;
-    background-color: rgba(68, 69, 70, 0.3);
-}
+
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 6px 0;
