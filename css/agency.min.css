@@ -172,17 +172,16 @@ img::-moz-selection {
     }
 }
 
-header.masthead {
+/*header.masthead {
     text-align: center;
     color: #fff;
-    /*background-image: url(../img/background.jpg);*/
     background-image: url(../img/bg1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: fit-content;
+  */  min-height: fit-content;
 }
 
 header.masthead .intro-text {
