@@ -1,6 +1,6 @@
 .form{
     background: rgba(33, 30, 30, 0.5);
-    min-height: 465px;
+    min-height: auto;
     border-radius: 1px;
     padding: 15px;
     text-align: left;
