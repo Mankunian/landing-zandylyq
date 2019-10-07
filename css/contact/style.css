@@ -1055,7 +1055,7 @@ h6 {
 --------------------------------*/
 
 #contact {
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);*/
   /*padding: 60px 0;*/
   overflow: hidden;
 }
@@ -1410,4 +1410,42 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+
+
+
+.about-us h5{
+  color: #555;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+
+.content h2{
+  color: #0c2e8a;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+
+.content ul{
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li{
+  padding-bottom: 10px;
+}
+
+.content ul li i{
+  color: #50d8af;
+  font-size: large;
+}
+
+
+#about-us{
+  padding: 110px 0 0 0;
 }
