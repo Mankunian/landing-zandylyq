@@ -96,3 +96,7 @@ header.mastheadContact {
 section#contact{
     background: none;
 }
+
+section#contact .form-group{
+    margin-bottom: 10px;
+}
