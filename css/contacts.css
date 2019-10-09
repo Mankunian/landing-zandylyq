@@ -1,4 +1,6 @@
-
+section #contact{
+    background: none;
+}
 
 
 #navContact {
@@ -88,4 +90,9 @@ header.mastheadContact {
 
 .contact h2{
     margin: 15px;
+}
+
+
+section#contact{
+    background: none;
 }
