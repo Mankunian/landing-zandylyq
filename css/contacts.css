@@ -100,3 +100,11 @@ section#contact{
 section#contact .form-group{
     margin-bottom: 10px;
 }
+
+p.mail a{
+	color: #000;
+}
+
+p.tel a{
+	color: #000;
+}
