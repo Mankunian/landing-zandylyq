@@ -137,7 +137,7 @@
 					<div class="form">
 						<div id="sendmessage">Your message has been sent. Thank you!</div>
 						<div id="errormessage"></div>
-						<form action="mail/contact_me.php" method="post" role="form" class="contactForm">
+						<form action="contact.php" method="post" role="form" class="contactForm">
 							<div class="form-row">
 								<div class="form-group col-lg-6">
 									<input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя"
@@ -160,8 +160,10 @@
 									data-msg="Please write something for us" placeholder="Сообщение"></textarea>
 								<div class="validation"></div>
 							</div>
-							<div class="text-center"><button type="submit" name="submit" title="Send Message">Отправить
-									сообщение</button></div>
+							<div class="text-center">
+								<input type="submit" class="form-control" name="submit" title="Send Message">Отправить
+								сообщение</input>
+							</div>
 						</form>
 					</div>
 				</div>

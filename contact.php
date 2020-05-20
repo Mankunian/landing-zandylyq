@@ -1,25 +1,19 @@
 <?php
-	if (isset($_POST['submit'])) {
-		# code...
-		$name=$_POST['name'];
-		$email=$_POST['email'];
-		$subject=$_POST['subject'];
-		$msg=$_POST['msg']
+	$name = $_POST['name'];
+	$visitor_email = $_POST['email'];
+	$message = $_POST['message'];
 
-		$to='dias.07.04@gmail.com';
-		$subject='Form Submission';
-		$message="Name: ".$name."\n". "Wrote the following: "."\n\n".$msg;
-		$headers="From: ".$email;
+	$email_from = 'trukft@mail.ru';
+	$email_subject = "New Form Submission";
+	$email_body = "User Name: $name.\n".
+									"User Email: $visitor_email.\n".
+											"User Message: $message.\n";
 
 
-		if (mail($to, $subject, $message, $headers)) {
-			# code...
-			echo "<h1>Sent successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
-		} else {
-			# code...
-			echo "Something went wrong!"
-		}
+	$to = 'dias.07.04@gmail.com';
+	$headers = "From: $email_from \r\n";
+	$headers = "Reply-to: $visitor_email \r\n";
 
-	
-}
+	mail($to, $email_subject,$email_body,$headers);
+	header("Location: index.html")
 ?>
